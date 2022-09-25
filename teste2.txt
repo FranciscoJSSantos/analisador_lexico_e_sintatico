@@ -1,0 +1,9 @@
+PROGRAM teste2;
+
+VAR teste2: INTEGER;
+
+BEGIN
+
+WHILE (10 > 10) DO nome := (10 + 10);
+
+END.

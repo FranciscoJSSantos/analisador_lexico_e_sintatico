@@ -1,9 +1,9 @@
 lexer grammar Descricao;
 
-COMENTARIO: '//' ~[\r\n]* -> skip;
-PRESERVADA: 'PROGRAM' | 'BEGIN' | 'END' | 'WHILE' | 'IF' | 'THEN' | 'ELSE' | 'DO' | 'READ' | 'VAR' | 'WRITE';
-TIPO: 'STRING' | 'INTEGER' | 'BOOLEAN';  
-BOOL: 'FALSE' | 'TRUE'; 
+COMENTARIO : '//' ~[\r\n]* -> skip;
+PRESERVADA : 'PROGRAM' | 'BEGIN' | 'END' | 'WHILE' | 'IF' | 'THEN' | 'ELSE' | 'DO' | 'READ' | 'VAR' | 'WRITE';
+TIPO : 'STRING' | 'INTEGER' | 'BOOLEAN';  
+BOOL : 'FALSE' | 'TRUE'; 
 IDENTIFIER : [a-zA-Z][a-zA-Z0-9]*;
 CTE : ('0'..'9')+|'-'('0'..'9')+;
 CADEIA : '"'('A'..'Z'|'a'..'z'|'0'..'9'|'-'|'_')+ '"';

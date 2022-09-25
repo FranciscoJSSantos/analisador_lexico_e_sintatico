@@ -1,0 +1,9 @@
+PROGRAM teste1;
+
+VAR nome: INTEGER;
+
+BEGIN
+
+IF (2 > 3) THEN nome := (2 + 2);
+
+END.
