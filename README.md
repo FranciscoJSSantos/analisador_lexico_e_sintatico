@@ -23,7 +23,7 @@
  - antlr4 Sintatico.g4
  - compile Sintatico*.java
  - grun Sintatico prog -gui
-   - tecle o enter, copie e cole o código que está presente dentro do 'teste1.txt' e cole no cmd, tecle control+z e enter novamente
+   - tecle o 'enter', copie e cole o código que está presente dentro do arquivo 'teste1.txt' e cole no cmd, tecle 'control+z' e 'enter' novamente
 
 - Qualquer dúvida na hora de executar o passo a passo:
   - francisco.jsantos@souunit.com.br
@@ -31,3 +31,7 @@
 ## LINK PARA DOCUMENTAÇÃO
 
 - https://eager-pleasure-952.notion.site/ANALISADOR-L-XICO-E-SINT-TICO-a388b250dae649fe979eb02cfa37c2a1
+
+## LINK DO VÍDEO
+
+- https://youtu.be/i8kos1BfnMw
