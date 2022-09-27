@@ -36,5 +36,10 @@ elemW: expr | CADEIA;
 
 expr: expAritm | exprBool;
 
-expAritm: CTE OPAD expAritm | ABPAR expAritm FPAR | CTE OPMULT expAritm | CTE;
+expAritm: expAritm OPAD expAritm | termo;
+
+termo: termo OPMULT termo | fator;
+
+fator: ABPAR expAritm FPAR | CTE;
+
 exprBool: CTE | OPNEG? IDENTIFIER | OPNEG CTE | OPNEG? ABPAR exprBool FPAR | OPNEG? BOOL | CTE OPREL CTE;
