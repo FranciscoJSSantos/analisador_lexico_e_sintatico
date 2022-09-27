@@ -1,0 +1,5 @@
+PROGRAM teste;
+VAR x: INTEGER;
+BEGIN
+IF(2>3) THEN x := (5 + 5 * 10);
+END.
